@@ -1,17 +1,13 @@
-import styled from '@emotion/styled';
-
-const StyledPage = styled('div')({
-  color: 'blue',
-});
+import { AppLayout } from '@mdunhem/personal-site-ui';
 
 export function Index() {
   return (
-    <StyledPage>
+    <AppLayout>
       <h1>
         <span> Hello there, </span>
         Welcome personal-site 👋
       </h1>
-    </StyledPage>
+    </AppLayout>
   );
 }
 
