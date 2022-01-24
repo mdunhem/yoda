@@ -1,13 +1,16 @@
-import { AppLayout } from '@mdunhem/personal-site-ui';
+import { AppLayout, AppStylesCacheProvider } from '@mdunhem/personal-site-ui';
 
 export function Index() {
   return (
-    <AppLayout>
-      <h1>
-        <span> Hello there, </span>
-        Welcome personal-site 👋
-      </h1>
-    </AppLayout>
+    <AppStylesCacheProvider>
+      <AppLayout>
+        <h1>
+          <span> Hello there, </span>
+          Welcome personal-site 👋
+        </h1>
+        <div>testing</div>
+      </AppLayout>
+    </AppStylesCacheProvider>
   );
 }
 

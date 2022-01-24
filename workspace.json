@@ -3,6 +3,7 @@
   "projects": {
     "personal-site": "apps/personal-site",
     "personal-site-e2e": "apps/personal-site-e2e",
-    "personal-site-ui": "libs/personal-site/ui"
+    "personal-site-ui": "libs/personal-site/ui",
+    "shared-styles": "libs/shared/styles"
   }
 }
